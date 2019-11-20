@@ -1,0 +1,16 @@
+server:
+  tomcat:
+    basedir:
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+  jackson:
+    time-zone: GMT+8
+    date-format: 'yyyy-MM-dd HH:mm:ss'
+    serialization:
+      write-dates-as-timestamps: false
+  devtools:
+    restart:
+      enabled: true
+
